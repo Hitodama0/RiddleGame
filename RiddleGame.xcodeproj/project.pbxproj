@@ -11,6 +11,10 @@
 		F98BE87B29E71D930006D457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BE87A29E71D930006D457 /* ContentView.swift */; };
 		F98BE87D29E71D960006D457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98BE87C29E71D960006D457 /* Assets.xcassets */; };
 		F98BE88029E71D960006D457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98BE87F29E71D960006D457 /* Preview Assets.xcassets */; };
+		F98BE88729E71DB70006D457 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BE88629E71DB70006D457 /* ButtonStyle.swift */; };
+		F98BE88929E71DD70006D457 /* RiddleStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BE88829E71DD70006D457 /* RiddleStruct.swift */; };
+		F98BE88D29E71E2A0006D457 /* SolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BE88C29E71E2A0006D457 /* SolutionView.swift */; };
+		F98BE88F29E71E4F0006D457 /* TextfieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BE88E29E71E4F0006D457 /* TextfieldStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F98BE87A29E71D930006D457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F98BE87C29E71D960006D457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98BE87F29E71D960006D457 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F98BE88629E71DB70006D457 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		F98BE88829E71DD70006D457 /* RiddleStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleStruct.swift; sourceTree = "<group>"; };
+		F98BE88C29E71E2A0006D457 /* SolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionView.swift; sourceTree = "<group>"; };
+		F98BE88E29E71E4F0006D457 /* TextfieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				F98BE87829E71D930006D457 /* RiddleGameApp.swift */,
 				F98BE87A29E71D930006D457 /* ContentView.swift */,
+				F98BE88629E71DB70006D457 /* ButtonStyle.swift */,
+				F98BE88829E71DD70006D457 /* RiddleStruct.swift */,
+				F98BE88C29E71E2A0006D457 /* SolutionView.swift */,
+				F98BE88E29E71E4F0006D457 /* TextfieldStyle.swift */,
 				F98BE87C29E71D960006D457 /* Assets.xcassets */,
 				F98BE87E29E71D960006D457 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98BE88729E71DB70006D457 /* ButtonStyle.swift in Sources */,
 				F98BE87B29E71D930006D457 /* ContentView.swift in Sources */,
+				F98BE88D29E71E2A0006D457 /* SolutionView.swift in Sources */,
+				F98BE88F29E71E4F0006D457 /* TextfieldStyle.swift in Sources */,
+				F98BE88929E71DD70006D457 /* RiddleStruct.swift in Sources */,
 				F98BE87929E71D930006D457 /* RiddleGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
